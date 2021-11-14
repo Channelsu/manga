@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    props: ['thumbnail', 'title', 'previewText']
+    props: ['thumbnail', 'title', 'previewText', 'id']
   }
 </script>
 
