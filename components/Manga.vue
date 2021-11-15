@@ -1,9 +1,11 @@
 <template>
-  <article class="manga">
-    <div class="thumbnail" :style="{ backgroundImage: 'url(' + thumbnail + ')' }"></div>
-    <h1>{{ title }}</h1>
-    <p>{{ previewText }}</p>
-  </article>
+  <nuxt-link :to="'/mangas/' + id">
+    <article class="manga">
+      <div class="thumbnail" :style="{ backgroundImage: 'url(' + thumbnail + ')' }"></div>
+      <h1>{{ title }}</h1>
+      <p>{{ previewText }}</p>
+    </article>
+  </nuxt-link>
 </template>
 
 <script>
