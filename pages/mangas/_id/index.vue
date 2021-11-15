@@ -15,5 +15,13 @@
 </script>
 
 <style scoped>
+.single-manga {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
 
 </style>
