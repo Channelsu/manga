@@ -15,6 +15,11 @@
 </script>
 
 <style scoped>
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .manga {
   box-sizing: border-box;
   width: 280px;
